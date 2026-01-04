@@ -527,7 +527,7 @@ object AppUpdater {
                         }
                     }
                     
-                    callback(builder)
+                    // callback(builder)
                 } catch (e: Exception) {
                     android.util.Log.e("Fork Client", "Error processing update check", e)
                     if (manual) {
